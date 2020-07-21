@@ -1,0 +1,46 @@
+.div1 {
+  background-color: yellow;
+}
+
+.div2 {
+  background-color: blue;
+}
+
+@media screen and (max-width: 600px) {
+  .div1 {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .div2 {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #navDesktop {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #navMobile {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #profileDesktop {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #profileMobile {
+    display: none !important;
+  }
+}
+
+
+
